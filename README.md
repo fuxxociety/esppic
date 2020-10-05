@@ -1,5 +1,13 @@
 # ESPPIC - An ESP-based PIC programmer
 
+
+
+
+## NOTE -- This is a fork of Mats' original project.  [Go to SmallRoomLabs for the real thing](https://github.com/SmallRoomLabs/esppic).
+
+
+
+
 ![ESP with PIC](https://github.com/SmallRoomLabs/esppic/raw/master/images/esppic-bare-S.jpg "NodeMCU and a PIC16F1705")
 
 ## Status
