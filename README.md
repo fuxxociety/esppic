@@ -19,15 +19,14 @@
 ### Compile & Load
 
    * Use PlatformIO.  It has much more functionality than the Arduino IDE.
-   * Once you've initialized the project (ie:- pio init --board=esp12e), edit the platformio.ini file to add the lines:-  
+   * Once you've initialized the project (ie:- pio init --board=esp12e), edit the platformio.ini file to add the following lines to enable the LittleFS filesystem and automagically install the WebSockets library:-  
 ```C
    board_build.filesystem = littlefs  
    lib_deps = links2004/WebSockets@^2.2.1  
 ```
-     to have the LittleFS filesystem work as expected and have the WebSockets library added automagically at compile time.
    * Copy the "assets" directory to "data" in the platformIO project directory (-not- the /src directory).  This makes the web content for the ESP available to the uploadfs command. 
    * Use "pio build -t upload" to compile and upload to your target board.  There will be several warnings during the compile; this is expected.
-   * Use "pio build -t uploadfs"
+   * Use "pio build -t uploadfs" to load the web-pages from the "data" directory to the LittleFS filesystem on the ESP8266.
 
 
 
