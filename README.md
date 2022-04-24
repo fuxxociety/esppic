@@ -33,9 +33,9 @@
 ### Usage
 
  The built-in pin numbers defined in the program are as follows:
- Target RESET D0
- Target PGD/DAT   D1
- Target PGC/CLK   D2
+ * Target RESET - Pin D0
+ * Target PGD/DAT - Pin D1
+ * Target PGC/CLK - Pin D2
  
  If you wish to power the PIC with the 3.3v LDO built into the ESP "programmer", keep in mind the LD1117 can't handle much more current than the ESP currently draws. You'll need to wire the 3.3v supply pins on the PIC to the 3.3v pin on the ESP separately.
 
