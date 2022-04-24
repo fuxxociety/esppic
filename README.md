@@ -11,7 +11,7 @@
 
    Before anything else at all  ...your PIC __MUST__ have Low Voltage Programming (LVP) enabled.  ESPPIC will _not_ work at all (ie:- won't even read, let alone   program memory) if LVP is not set.  Any modern PIC processors which you buy from a reliable source should come with this configured, but if you're using a device from a previous project, it's very likely that it won't be.
 
-   The only way to set LVP in a PIC which doesn't have it enabled is to use a "high voltage" programmer (ie:- PicKit2/3/4) to program it.  There is no way around this. (You can build yourself a cheap HV programmer very easily, depending upon the contents of your spares box. [Here is one project I found.](https://rweather.github.io/ardpicprog/pic14_zif_circuit.html)
+   The only way to set LVP in a PIC which doesn't have it enabled is to use a "high voltage" programmer (ie:- PicKit2/3/4) to program it.  There is no way around this. (You can build yourself a cheap HV programmer very easily, depending upon the contents of your spares box. [Here is one project I found](https://rweather.github.io/ardpicprog/pic14_zif_circuit.html) .)
 
 #### How can I tell if I don't have LVP enabled?
 
